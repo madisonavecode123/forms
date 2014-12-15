@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="mycstyle.css">
+</head>
+
+<body>
+<header>
+<h2>Contact Form</h2>
+<h6>Please fill all the texts in the fields.</h6>
+</header>
+
+    <section id="form-body-container">
+    <form>
+    <div class="form-group" id="form-container1">
+          <label for="name" class="instruction">Your Name:</label></br>
+          <input type="name" class="form-control" id="name" placeholder="Your Full Name">
+    </div>
+    
+    <div class="form-group">
+          <label for="email" class="instruction">Your Email:</label></br>
+          <input type="email" class="form-control" id="email" placeholder="Valid Email Address" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="message" class="instruction">Message:</label></br>
+		<textarea type="text" id="message" class="input" name="message" placeholder="Your Message to Us"></textarea>
+	</div>
+    
+
+        <label for="select" class="instruction">Subject:</label></br>
+        <select id="dropdown-container">
+            <option>Job Inquiry</option>
+            <option>Others 1</option>
+            <option>Others 2</option>
+        </select>
+    
+	<input id="submit_button" type="submit" value="Send" />
+    </form>
+    </section>
+    
+</form>	
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="javaform2.js"></script>
+
+</body>
+</html>
+
+

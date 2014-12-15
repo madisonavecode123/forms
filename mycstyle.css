@@ -1,0 +1,76 @@
+
+h2, h6 {
+    padding: 0;
+    margin: 0;
+    width: 285px;
+    background-color: #9CBA7F;
+    color: white;
+    font-family: "Lucida Console";
+    margin-left: 15px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+h6 {
+    margin-bottom: 15px;
+}
+
+header {
+    border: 1px solid #9CBA7F;
+    background-color: #9CBA7F;
+    width: 300px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#form-body-container {
+    border: 1px sold #F0F0F0;
+    background-color: #F0F0F0;
+    width: 302px;
+}
+
+.instruction {
+    font-size:10px;
+    font-family: "Lucida Console";
+    font-weight: bold;
+    margin-left: 15px;
+
+}
+
+.form-control {
+    width: 250px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+#message {
+    width: 250px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+#dropdown-container {
+    width: 255px;
+    margin-left: 15px;
+}
+
+#submit_button {
+    width: 70px;
+    height: 25px;
+    background-color: #9CBA7F;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+
+header {
+    border
+}
+
+#form-container1 {
+    padding-top: 10px;
+}
