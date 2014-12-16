@@ -3,6 +3,8 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
 </head>
 
 <body>
@@ -55,6 +57,7 @@
 </div>
     
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
 <script>
     function init() {
         var social_security_regexp = /[0-9]{3}[-]{0,1}[0-9]{2}[2]{0,1}[0-9]{4}/
@@ -62,17 +65,19 @@
         $('form').submit(function() {
             var ssn = $('#social');
             
-            if(!social_security_regexp.text(ssn.val())) {
+            if(!social_security_regexp.test(ssn.val())) {
                 ssn.addClass('bg-warning');
                 
                 var alert_div = $('<div>').addClass('alert alert-danger').html('Invalid SSN FORMAT!!!');
                 
-                $('#form-area').prepend(alert_div);
+                //$('#form-area').prepend(alert_div);
                 
                 return false;
             }
             
         });
+    }
+    
 $(document).ready(init);
 
 </script>
